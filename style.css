@@ -1,0 +1,15 @@
+.draggable {
+    cursor: grab;
+}
+.draggable:active {
+    cursor: grabbing;
+}
+.drag-over {
+    border: 2px dashed #4A90E2;
+}
+.completed-task {
+    background-color: #d4edda; /* Cor de fundo para tarefas concluídas */
+    border-color: #c3e6cb; /* Cor da borda para tarefas concluídas */
+    color: #155724; /* Cor do texto para tarefas concluídas */
+    text-decoration: line-through; /* Texto riscado para tarefas concluídas */
+}
